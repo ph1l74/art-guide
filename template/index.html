@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Art-Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- jQuery Scrollbar -->
+    <script src="http://gromo.github.io/jquery.scrollbar/jquery.scrollbar.js"></script>
+
+    <!-- My Style -->
+    <style>
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        .navigation {
+            z-index: 980;
+        }
+
+        .navigation {
+            -webkit-user-select: none;
+            /* Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE10+/Edge */
+            user-select: none;
+            /* Standard */
+        }
+
+        .navigation .uk-active a {
+            background-color: rgb(104, 29, 29) !important;
+        }
+
+        .uk-accordion-title:before {
+            content: none;
+        }
+
+        .uk-accordion-title .uk-heading-small:hover {
+            color: #666;
+        }
+
+        .uk-subnav.uk-subnav-pill li a {
+            color: #333;
+        }
+
+        .uk-subnav.uk-subnav-pill li.uk-active a {
+            color: white;
+        }
+
+        .uk-card.uk-card-default.uk-card-hover.uk-card-body {
+            background-size: cover;
+        }
+
+        .uk-card.uk-card-hover.uk-card-default.uk-card-body.my-card {
+            margin-bottom: 40px;
+            -webkit-user-select: none;
+            /* Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE10+/Edge */
+            user-select: none;
+            /* Standard */
+        }
+
+        .uk-card.uk-card-hover.uk-card-default.uk-card-body.my-card:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uk-container menu">
+        <div class="uk-container-expand">
+            <div class="uk-card uk-card-body navigation">
+                <ul class="uk-subnav uk-subnav-pill" uk-margin>
+                    <li><a linktarget="paintings">Живопись</a></li>
+                    <li><a linktarget="architecture">Архитектура</a></li>
+                    <li><a linktarget="music">Музыка</a></li>
+                    <li><a linktarget="other">Другое</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container">
+        <div class="uk-container-expand">
+            <ul uk-accordion="multiple: true" id="mainContent">
+            </ul>
+        </div>
+    </div>
+    <script>
+        var links = document.querySelectorAll(".navigation ul li a");
+        var event = new Event('click');
+
+        var materials = [
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: 'Как понимать живопись XIX века',
+                type: 'paintings',
+                url: 'https://arzamas.academy/courses/15',
+                img: 'https://cdn-s-static.arzamas.academy/storage/course/15/hd_background_detail_picture-dfcfb07a-26e1-4e23-a9eb-8529e358b6d3.jpg',
+                section: 'course'
+            },
+            {
+                title: '«Russian Constructivism» (1983)',
+                author: 'Christina Lodder',
+                type: 'paintings',
+                url: 'https://www.labirint.ru/top/newbooks/',
+                img: 'https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/2707/content_lodder.jpg',
+                section: 'books'
+            },
+            {
+                title: 'Самая быстрая история русского искусства XX века',
+                type: 'paintings',
+                url: 'https://www.youtube.com/watch?v=tDxrdnk4e5g&list=PLeNbGOow-rnd4B8TqIOXZtJdU3iw1jo3Y&index=4',
+                img: 'https://muzei-mira.com/uploads/posts/2014-09/thumbs/1411847105_nad-vechnim-pokoem-levitan.jpg',
+                section: 'video'
+            },
+
+        ]
+
+        var typeDict = { course: 'Курсы', books: 'Книги', video: 'Видео' }
+
+        function sortMaterials(type, value, contentArray) {
+            const array = contentArray ? contentArray : materials;
+            var result = array.filter(function (el) {
+                return el[type] === value
+            })
+            return result;
+        }
+
+        function getSections(content) {
+            return [... new Set(content.map(el => el.section))];
+        }
+
+
+        function createSection(sectionType) {
+            var section = '<li class="animated fadeInUp faster"><a class="uk-accordion-title"><h1 class="uk-heading-small">' + typeDict[sectionType] + '</h1></a><div class="uk-accordion-content"><div class="uk-grid" id=' + sectionType + '></div></div></li>';
+            document.getElementById('mainContent').innerHTML += section;
+        }
+
+        function createCard(item) {
+            var num = Math.floor(Math.random() * 9999);
+            var id = item.type + '_' + item.section + num;
+            cardDiv = $('<div class="uk-width-1-4">');
+            card.innerHTML = '<div id="' + id + '" class="uk-card uk-card-hover uk-card-default uk-card-body my-card" style="background-image: url(' + item.img + ')"><div class="uk-overlay uk-overlay-default"><h3 class="uk-card-title">' + item.title + '</h3></div></div>';
+            
+            document.getElementById(item.section).appendChild(card);
+            document.getElementById(id).addEventListener("click", ((e) => {
+                if (item.section != 'video') {
+                    var redirectWindow = window.open(item.url, '_blank');
+                    redirectWindow.location;
+                }
+                else {
+                    var videoModal = '<div id="modal-media-youtube" class="uk-flex-top" uk-modal><div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"><button class="uk-modal-close-outside" type="button" uk-close></button><iframe src="' + item.url + '" width="90%" frameborder="0" uk-video></iframe></div></div>'
+                    document.body.innerHTML += videoModal;
+                }
+            }));
+
+        }
+
+        // menu 
+        function initLinks() {
+            links.forEach(function (el, num) {
+                el.addEventListener('click', function () {
+                    links.forEach(function (link, num) {
+                        link.parentElement.classList.remove('uk-active');
+                    })
+                    el.parentElement.classList.add('uk-active');
+                    document.getElementById('mainContent').innerHTML = "";
+                    const content = sortMaterials('type', el.getAttribute('linktarget'));
+                    const types = getSections(content);
+                    types.forEach((type) => {
+                        createSection(type);
+                        const cards = sortMaterials('section', type, content);
+                        cards.forEach((card) => {
+                            createCard(card);
+                        })
+                    })
+                });
+            })
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            initLinks();
+        });
+        jQuery(document).ready(function () {
+            jQuery('body').scrollbar();
+        });
+    </script>
+</body>
+
+</html>
