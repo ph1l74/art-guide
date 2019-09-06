@@ -1,0 +1,23 @@
+.navigation {
+    z-index: 980;
+}
+
+.navigation {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+.navigation .uk-active a {
+    background-color: rgb(104, 29, 29) !important;
+}
+
+.uk-tab>.uk-active>a {
+    color: #333;
+    border-color: rgb(104, 29, 29);
+}

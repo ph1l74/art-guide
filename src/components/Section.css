@@ -1,0 +1,25 @@
+.uk-accordion-title:before {
+    content: none;
+}
+
+.uk-accordion-title .uk-heading-small:hover {
+    color: #666;
+}
+
+.section-count {
+    margin-left: 10px;
+    background: #555;
+}
+
+.uk-heading-bullet::before {
+    transition: all 1.2s ease;
+    -webkit-transition: opacity 1.2s ease;
+    -moz-transition: opacity 1.2s ease;
+    -ms-transition: opacity 1.2s ease;
+    -o-transition: opacity 1.2s ease;
+    border-color:  #e5e5e5;
+}
+
+.uk-heading-bullet:hover::before {
+        border-color:  rgb(104, 29, 29);
+}
