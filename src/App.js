@@ -439,17 +439,17 @@ export default function App() {
 
   const [content, setContent] = useState([]);
   const [vocabulary] = useState([
-    {id: 'course', ru: 'Курсы'},
-    {id: 'video', ru: 'Видео'},
-    {id: 'article', ru: 'Статьи'},
-    {id: 'book', ru: 'Книги'},
-    {id: 'architecture', ru: 'Архитектура'},
-    {id: 'cinema', ru: 'Кинематограф'},
-    {id: 'contemporary', ru: 'Современное искусство'},
-    {id: 'music', ru: 'Музыка'},
-    {id: 'paintings', ru: 'Живопись и скульптура'},
-    {id: 'photography', ru: 'Фотография'},
-    {id: 'theater', ru: 'Театр'},
+    { id: 'course', ru: 'Курсы', en:'Courses' },
+    { id: 'video', ru: 'Видео', en:'Video' },
+    { id: 'article', ru: 'Статьи', en: 'Articles' },
+    { id: 'book', ru: 'Книги', en: 'Books' },
+    { id: 'architecture', ru: 'Архитектура', en: 'Architecture' },
+    { id: 'cinema', ru: 'Кинематограф', en:'Cinema' },
+    { id: 'contemporary', ru: 'Современное искусство', en :'Contemporary Art' },
+    { id: 'music', ru: 'Музыка', en:'Music' },
+    { id: 'paintings', ru: 'Живопись и скульптура', en:'Painting and sculpture' },
+    { id: 'photography', ru: 'Фотография', en:'Photography' },
+    { id: 'theater', ru: 'Театр', en:'Theater' },
   ]);
 
   useEffect(() => {
@@ -494,7 +494,10 @@ export default function App() {
       filterContent, translate
     }}>
       <div>
-        <NavBar types={types.sort()} vocabulary={vocabulary}/>
+        <div className="uk-container">
+          <h1 class="uk-heading-small uk-text-center uk-margin-top">Art-Guide</h1>
+        </div>
+        <NavBar types={types.sort()} vocabulary={vocabulary} />
         <div className="uk-container">
           <div className="uk-container-expand">
             <ul uk-accordion="multiple: true">
@@ -506,7 +509,7 @@ export default function App() {
                       cards={content.filter(material => material.section === item)}
                       count={content.filter(material => material.section === item).length}
                       vocabulary={vocabulary}
-                      ></Section>
+                    ></Section>
 
                   )
                 }

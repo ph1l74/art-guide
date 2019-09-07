@@ -10,7 +10,7 @@ export default function Section({ title, count, cards, vocabulary }) {
     return (
         <li className='uk-animation-slide-left-medium'>
             <a className="uk-accordion-title">
-                <h1 className="uk-heading-bullet">{translate('ru', title)}<span className="uk-badge section-count">{count}</span></h1>
+                <h1 className="uk-heading-bullet">{translate('en', title)}<span className="uk-badge section-count">{count}</span></h1>
             </a>
             <div className="uk-accordion-content">
                 <div className="uk-grid" uk-grid="masonry: true">

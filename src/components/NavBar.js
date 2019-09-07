@@ -13,7 +13,7 @@ export default function NavBar({ types, vocabulary }) {
                     {types.map((item, index) => (
                         <li key={item + '_' + index}>
                             <a onClick={() => filterContent(item)}>
-                                {translate('ru', item)}
+                                {translate('en', item)}
                             </a>
                         </li>
                     ))}
