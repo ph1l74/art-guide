@@ -434,6 +434,741 @@ export default function App() {
       "section": "article",
       "url": "https://arzamas.academy/materials/1359",
       "img": ""
+    },
+    {
+      "title": "Рубрика \"Фотопроект\" от Bird In Flight",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/fotoproect",
+      "img": ""
+    },
+    {
+      "title": "Рубрика \"Почему это шедевр\" от Bird In Flight",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/pochemu_eto_shedevr",
+      "img": ""
+    },
+    {
+      "title": "Рубрика \"Почему это шедевр\" от Bird In Flight",
+      "type": "contemporary",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/pochemu_eto_shedevr",
+      "img": ""
+    },
+    {
+      "title": "Рубрика \"Почему это шедевр\" от Bird In Flight",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/pochemu_eto_shedevr",
+      "img": ""
+    },
+    {
+      "title": "Раздел \"фотография\" на Losko",
+      "type": "photography",
+      "section": "article",
+      "url": "https://losko.ru/category/photography/",
+      "img": ""
+    },
+    {
+      "title": "Раздел \"архитектура\" на Losko",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/category/architecture/",
+      "img": ""
+    },
+    {
+      "title": "Эдвард Хоппер — архитектура одиночества",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://losko.ru/edward-hopper-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2018/11/270714.jpg"
+    },
+    {
+      "title": "Фрэнк Ллойд Райт — отец органической архитектуры",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/frank-lloyd-wright/",
+      "img": "https://losko.ru/wp-content/uploads/2018/10/DmtJ_S2VsAUjrK4.jpg"
+    },
+    {
+      "title": "Норман Фостер — архитектор будущего",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/norman-foster/",
+      "img": "https://losko.ru/wp-content/uploads/2018/07/photo-1514557718210-26e452f8fab0-1660x1107.jpeg"
+    },
+    {
+      "title": "Ренцо Пиано — основатель стиля хай-тек в архитектуре",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/renzo-piano/",
+      "img": "https://losko.ru/wp-content/uploads/2018/06/201704_DE_MAI_01-RT-web-2.jpg"
+    },
+    {
+      "title": "Оскар Нимейер — мастер железобетонных кривых",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/oscar-niemeyer-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2018/06/Niemeyer-Cultural-Center-Aviles-by-Oscar-Niemeyer-Yellowtrace-01.jpg"
+    },
+    {
+      "title": "Анри Картье-Брессон — легенда уличной фотографии",
+      "type": "photography",
+      "section": "article",
+      "url": "https://losko.ru/henri-cartier-bresson-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2018/01/image.jpeg"
+    },
+    {
+      "title": "Сол Лейтер — художник и пионер цветной фотографии",
+      "type": "photography",
+      "section": "article",
+      "url": "https://losko.ru/saul-leiter/",
+      "img": "https://losko.ru/wp-content/uploads/2017/10/SaulLeiter01.jpg"
+    },
+    {
+      "title": "Фрэнк Гери — экспрессивный гений деконструктивизма",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/frank-gehry/",
+      "img": "https://losko.ru/wp-content/uploads/2017/07/FullSizeRender-6-10.jpg"
+    },
+    {
+      "title": "Алвар Аалто — эталон скандинавской архитектуры",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/alvar-aalto-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2017/04/avanto_chapelofsaintlawrence_1_tuomasuusheimo-1660x1106.jpg"
+    },
+    {
+      "title": "Самый дорогой художник современности Дэвид Хокни: «Я предпочитаю жить в цвете!»",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://losko.ru/david-hockney/",
+      "img": "https://losko.ru/wp-content/uploads/2019/08/Hockney-1660x1178.jpg"
+    },
+    {
+      "title": "Биография Клаудио Сильвестрина",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/claudio-silvestrin-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2017/04/claudio.jpg"
+    },
+    {
+      "title": "Заха Хадид: «творчество — это способ осмысления мира»",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/zaha-hadid-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2017/03/screenshot.jpg"
+    },
+    {
+      "title": "Андреас Гурски: самый дорогой фотограф современности",
+      "type": "photography",
+      "section": "article",
+      "url": "https://losko.ru/andreas-gursky/",
+      "img": "https://losko.ru/wp-content/uploads/2016/12/00-andreas-gursky-k20-p.jpg"
+    },
+    {
+      "title": "Ле Корбюзье — гениальный новатор в современной архитектуре",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://losko.ru/le-corbusier-biography/",
+      "img": "https://losko.ru/wp-content/uploads/2016/12/image-2-1660x1237.jpg"
+    },
+    {
+      "title": "Любовь и эротика в сталинских комедиях",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://arzamas.academy/materials/967",
+      "img": "https://cdn-s-static.arzamas.academy/uploads/ckeditor/pictures/5241/content_660.jpg"
+    },
+    {
+      "title": "Фотографии Яна Артюс-Бертрана",
+      "type": "photography",
+      "section": "article",
+      "url": "http://www.outshoot.ru/aerial-survey/1935/#more-1935",
+      "img": "http://www.outshoot.ru/wp-content/uploads/2011/05/aero1.jpg"
+    },
+    {
+      "title": "62 самых необычных и невероятных здания в мире",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://pozitiv-news.ru/mir/62-samyih-neobyichnyih-i-neveroyatnyih-zdaniya-v-mire.html",
+      "img": "https://pozitiv-news.ru/wp-content/uploads/2011/04/0124.jpg"
+    },
+    {
+      "title": "Брызги и капли на снимках Маркуса Ройгельса",
+      "type": "photography",
+      "section": "article",
+      "url": "https://bigpicture.ru/?p=141155",
+      "img": "https://bigpicture.ru/wp-content/uploads/2011/04/Temp167.jpg"
+    },
+    {
+      "title": "Фотографии Марка Моусона",
+      "type": "photography",
+      "section": "article",
+      "url": "http://www.spletnik.ru/blogs/kruto/19856_mark_mouson",
+      "img": ""
+    },
+    {
+      "title": "Великие зарубежные кинорежиссеры и их лучшие фильмы",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://media-shoot.ru/publ/16-1-0-385",
+      "img": ""
+    },
+    {
+      "title": "Как социолог смотрит кино",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://arzamas.academy/materials/937",
+      "img": ""
+    },
+    {
+      "title": "80 блогов о кино",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://www.lookatme.ru/mag/live/experience-news/122709-kino-na-tumlbr",
+      "img": ""
+    },
+    {
+      "title": "Величайшие хип-хоп-композиции",
+      "type": "music",
+      "section": "article",
+      "url": "https://digitaldreamdoor.com/pages/best_rap-oldsch.html",
+      "img": ""
+    },
+    {
+      "title": "Топ джазовых стандартов",
+      "type": "music",
+      "section": "article",
+      "url": "https://uk.askmen.com/top_10/entertainment/top-10-jazz-standards.html",
+      "img": ""
+    },
+    {
+      "title": "Декларация независимости: 20 лет американского инди-кино",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://www.lookatme.ru/mag/archive/experience-interview/176131-20-years-of-indie-filmmaking-in-screenshots",
+      "img": ""
+    },
+    {
+      "title": "15 запоминающихся новелл из киноальманахов",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://www.lookatme.ru/mag/archive/experience-interview/176687-15-notable-short-films",
+      "img": ""
+    },
+    {
+      "title": "Список лучших японских мультфильмов",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://www.lookatme.ru/mag/how-to/tops/191733-anime",
+      "img": ""
+    },
+    {
+      "title": "20 книг, которые почти невозможно экранизировать",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://inosmi.ru/world/20131101/214366919.html",
+      "img": ""
+    },
+    {
+      "title": "30 лет после Чернобыля",
+      "type": "photography",
+      "section": "article",
+      "url": "https://www.theatlantic.com/photo/2016/04/still-cleaning-up-30-years-after-the-chernobyl-disaster/476748/",
+      "img": ""
+    },
+    {
+      "title": "Перечень фильмов, рекомендованных к просмотру студентам ВГИК",
+      "type": "cinema",
+      "section": "article",
+      "url": "http://artmoviebase.com/a9",
+      "img": ""
+    },
+    {
+      "title": "Приднестрованные: Выжить в непризнанной республике",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/fotoproect/20180313-transnistria.html",
+      "img": ""
+    },
+    {
+      "title": "Визуальные отсылки в фильме \"Форма Воды",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/novosti/20180313-video-shape-of-water-references.html",
+      "img": ""
+    },
+    {
+      "title": "Эволюция визуальных эффектов в кино с 1920-х годов",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/novosti/industriya/20180301-vfx-oscars-movies-video.html",
+      "img": ""
+    },
+    {
+      "title": "Личный архив: Фотографы Magnum — о снимках, которые никто не видел",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/resursy/fotografy-magnum-pokazali-lyubimye-snimki-kotorye-ranee-ne-publikovali.html",
+      "img": ""
+    },
+    {
+      "title": "Переломный момент: Фотографы Magnum — о судьбоносных кадрах",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/opyt/perelomnyj-moment-fotografy-magnum-o-sudbonosnyh-kadrah.html",
+      "img": ""
+    },
+    {
+      "title": "Победители конкурса дрон-фотографии SkyPixel 2016",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/resursy/20170127-skypixel-contest.html",
+      "img": ""
+    },
+    {
+      "title": "Победители конкурса Best of Russia 2016",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/resursy/20170110-best-of-russia-2016-winners.html",
+      "img": ""
+    },
+    {
+      "title": "Обладатель Пулитцера Деннис Чемберлин: «Мои цветные фотографии довольно монохромны»",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/opyt/20161128-dennis-chemberlen.html",
+      "img": ""
+    },
+    {
+      "title": "Роджер Баллен: «Фотография была моим хобби. Лет до пятидесяти»",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/opyt/rodzher-ballen-fotografiya-byla-moim-hobbi-let-do-pyatidesyati.html",
+      "img": ""
+    },
+    {
+      "title": "Майк Келли скомбинировал снимки взлетающих самолетов в аэропортах по всему миру",
+      "type": "photography",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/vdohnovenie/resursy/20161019-airportraits.html",
+      "img": ""
+    },
+    {
+      "title": "Малевич наш: Все, что вы должны знать о гении",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/pochemu_eto_shedevr/20160926-krasnyj-kvadrat-kazimira-malevicha.html",
+      "img": ""
+    },
+    {
+      "title": "Жилье нового человека: Какой была жизнь в домах эпохи конструктивизма",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/mir/20160921-zhile-novogo-cheloveka-nedolgaya-zhizn-konstruktivizma.html",
+      "img": ""
+    },
+    {
+      "title": "«Оранжевое, красное, жёлтое» Марка Ротко",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://birdinflight.com/ru/pochemu_eto_shedevr/20160427-why-masterpiece-rothko-orange-red-yellow.html?utm_source=VK&utm_medium=post&utm_content=BiF&utm_campaign=VK_post_old",
+      "img": ""
+    },
+    {
+      "title": "Как Кубрик воплощал в жизнь Барри Линдона",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://cinephiliabeyond.org/stanley-kubricks-barry-lyndon/",
+      "img": ""
+    },
+    {
+      "title": "Японское кино для начинающих",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/119-japan-cinema",
+      "img": ""
+    },
+    {
+      "title": "Аниме об истории Японии",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://arzamas.academy/materials/758",
+      "img": ""
+    },
+    {
+      "title": "Секрет величия главных произведений японского искусства",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://arzamas.academy/materials/727",
+      "img": ""
+    },
+    {
+      "title": "Что смотреть у корейских классиков и их учеников",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://www.kinopoisk.ru/media/article/3207975/",
+      "img": ""
+    },
+    {
+      "title": "10 песен, под которые просыпаются астронавты",
+      "type": "music",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/404-groundcontrol",
+      "img": ""
+    },
+    {
+      "title": "Грузинский авангард в шести картинах и двух эскизах",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/408-gamardzhoba",
+      "img": ""
+    },
+    {
+      "title": "Мебель, которую придумали великие архитекторы",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/391-chairs",
+      "img": ""
+    },
+    {
+      "title": "Как Ницше, Аполлинер и прерафаэлиты изменили архитектуру",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/399-arch_books",
+      "img": ""
+    },
+    {
+      "title": "О чем рассказывает фасад готического собора",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/403-fasad",
+      "img": ""
+    },
+    {
+      "title": "Фасадизм",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://strelkamag.com/ru/article/vocabulary-facadism",
+      "img": ""
+    },
+    {
+      "title": "10 знаковых модернистских зданий Куйбышева",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://sovietarch.strelka.com/ru/city/samara",
+      "img": ""
+    },
+    {
+      "title": "12 величайших проектов модернизма в СССР",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://daily.afisha.ru/cities/4204-ot-kafe-v-palange-do-plana-zelenograda-10-velichayshih-proektov-modernizma-v-sssr/",
+      "img": ""
+    },
+    {
+      "title": "Kleinewelt Architekten: «В каждом проекте мы стараемся чинить мир»",
+      "type": "architecture",
+      "section": "article",
+      "url": "https://archi.ru/russia/72212/kleinewelt-architekten-v-kazhdom-proekte-my-staraemsya-chinit-mir",
+      "img": ""
+    },
+    {
+      "title": "Дадаизм",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://postnauka.ru/faq/70906",
+      "img": ""
+    },
+    {
+      "title": "Легендарные скульпторы-шестидесятники, входившие в группу «ЛеСС», снова вместе",
+      "type": "paintings",
+      "section": "article",
+      "url": "http://www.theartnewspaper.ru/posts/1960/",
+      "img": ""
+    },
+    {
+      "title": "Музыкальные способности",
+      "type": "music",
+      "section": "article",
+      "url": "https://postnauka.ru/faq/72316",
+      "img": ""
+    },
+    {
+      "title": "Как смотреть голландский натюрморт",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://arzamas.academy/mag/406-naturemorte",
+      "img": ""
+    },
+    {
+      "title": "Известные искусствоведческие работы одной серии",
+      "type": "paintings",
+      "section": "book",
+      "url": "https://vk.com/wall-79876841_913",
+      "img": "https://pp.userapi.com/6kf31NzsDo02NeaEHzysPxDFbnOX_AgPG_yxcw/HaNXLO5Jfog.jpg"
+    },
+    {
+      "title": "Известные искусствоведческие работы одной серии",
+      "type": "contemporary",
+      "section": "book",
+      "url": "https://vk.com/wall-79876841_913",
+      "img": "https://pp.userapi.com/6kf31NzsDo02NeaEHzysPxDFbnOX_AgPG_yxcw/HaNXLO5Jfog.jpg"
+    },
+    {
+      "title": "Краткий гид по миру американских инди-комедий",
+      "type": "cinema",
+      "section": "article",
+      "url": "https://daily.afisha.ru/cinema/3333-ot-andersona-do-baumbaha-kratkiy-gid-po-miru-amerikanskoy-nezavisimoy-komedii/?utm_source=afishavk&utm_medium=social&utm_campaign=sostavili-kratkiy--no-poznavatelnyy-gid",
+      "img": ""
+    },
+    {
+      "title": "History of Music. Archive.",
+      "type": "music",
+      "section": "book",
+      "url": "https://vk.com/wall-48369111_13073",
+      "img": ""
+    },
+    {
+      "title": "Рубрика \"Икона дня",
+      "type": "paintings",
+      "section": "article",
+      "url": "https://arzamas.academy/micro/ikona",
+      "img": ""
+    },
+    {
+      "title": "Дзига и его братья",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=qdezIx9E1QE",
+      "img": ""
+    },
+    {
+      "title": "Гордон - Диалоги: Интерпретация в живописи",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=LbPKClQ23N0",
+      "img": ""
+    },
+    {
+      "title": "Культурный слой. Фотоандеграунд.",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=bF02sOoQQ7o",
+      "img": ""
+    },
+    {
+      "title": "Кинопробы к фильму \"400 ударов\" Франсуа Трюффо",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://vk.com/video-54363791_166416364",
+      "img": ""
+    },
+    {
+      "title": "Вадим Пискарёв. Мысли о фотографии",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=Z0_wsx5LbPE",
+      "img": ""
+    },
+    {
+      "title": "Советский авангард в 30-е годы",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=wxMV4Yx8Lio",
+      "img": ""
+    },
+    {
+      "title": "Советский авангард в 30-е годы",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=wxMV4Yx8Lio",
+      "img": ""
+    },
+    {
+      "title": "Советский авангард в 30-е годы",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=wxMV4Yx8Lio",
+      "img": ""
+    },
+    {
+      "title": "Советский авангард в 30-е годы",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=wxMV4Yx8Lio",
+      "img": ""
+    },
+    {
+      "title": "Первые цветные фотографии Российской империи",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=yQJf14c7GJo",
+      "img": ""
+    },
+    {
+      "title": "Авангардисты у власти. Культурное строительство в первые послереволюционные годы",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=VDvQVay0dSI",
+      "img": ""
+    },
+    {
+      "title": "Региональные школы авангарда в начале 1920-х годов",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tV0an4IoNZQ",
+      "img": ""
+    },
+    {
+      "title": "Догадки, прорывы, предвидения авангарда",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=dDQ8JNMy2zI",
+      "img": ""
+    },
+    {
+      "title": "Абстракция и беспредметность в русском авангарде",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=jtQ8MOjJ9MU",
+      "img": ""
+    },
+    {
+      "title": "Михаил Ларионов и Наталья Гончарова. Годы в России.",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=RMhNac7bJOg",
+      "img": ""
+    },
+    {
+      "title": "„Бубновый валет“ и „Союз молодежи“",
+      "type": "paintings",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tM8o99fhQz4",
+      "img": ""
+    },
+    {
+      "title": "Авангардисты у власти. Культурное строительство в первые послереволюционные годы",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=VDvQVay0dSI",
+      "img": ""
+    },
+    {
+      "title": "Региональные школы авангарда в начале 1920-х годов",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tV0an4IoNZQ",
+      "img": ""
+    },
+    {
+      "title": "Догадки, прорывы, предвидения авангарда",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=dDQ8JNMy2zI",
+      "img": ""
+    },
+    {
+      "title": "Абстракция и беспредметность в русском авангарде",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=jtQ8MOjJ9MU",
+      "img": ""
+    },
+    {
+      "title": "„Бубновый валет“ и „Союз молодежи“",
+      "type": "cinema",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tM8o99fhQz4",
+      "img": ""
+    },
+    {
+      "title": "Весь Шекспир",
+      "type": "theater",
+      "section": "course",
+      "url": "https://arzamas.academy/courses/37",
+      "img": "https://cdn-s-static.arzamas.academy/storage/course/44/hd_background_detail_picture-39757c6a-766c-4809-9d9f-0fc2e81e9638.jpg"
+    },
+    {
+      "title": "Непрограммные пьесы Шекспира",
+      "type": "theater",
+      "section": "article",
+      "url": "https://arzamas.academy/materials/1038",
+      "img": ""
+    },
+    {
+      "title": "Авангардисты у власти. Культурное строительство в первые послереволюционные годы",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=VDvQVay0dSI",
+      "img": ""
+    },
+    {
+      "title": "Региональные школы авангарда в начале 1920-х годов",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tV0an4IoNZQ",
+      "img": ""
+    },
+    {
+      "title": "Догадки, прорывы, предвидения авангарда",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=dDQ8JNMy2zI",
+      "img": ""
+    },
+    {
+      "title": "Абстракция и беспредметность в русском авангарде",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=jtQ8MOjJ9MU",
+      "img": ""
+    },
+    {
+      "title": "„Бубновый валет“ и „Союз молодежи“",
+      "type": "photography",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tM8o99fhQz4",
+      "img": ""
+    },
+    {
+      "title": "Авангардисты у власти. Культурное строительство в первые послереволюционные годы",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=VDvQVay0dSI",
+      "img": ""
+    },
+    {
+      "title": "Региональные школы авангарда в начале 1920-х годов",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tV0an4IoNZQ",
+      "img": ""
+    },
+    {
+      "title": "Догадки, прорывы, предвидения авангарда",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=dDQ8JNMy2zI",
+      "img": ""
+    },
+    {
+      "title": "Абстракция и беспредметность в русском авангарде",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=jtQ8MOjJ9MU",
+      "img": ""
+    },
+    {
+      "title": "„Бубновый валет“ и „Союз молодежи“",
+      "type": "architecture",
+      "section": "video",
+      "url": "https://www.youtube.com/watch?v=tM8o99fhQz4",
+      "img": ""
     }
   ]);
 
@@ -486,7 +1221,12 @@ export default function App() {
   }
 
   const translate = (language, word) => {
-    return vocabulary.filter(el => el.id === word)[0][language];
+    if (vocabulary.filter(el => el.id === word).length > 0) {
+      return vocabulary.filter(el => el.id === word)[0][language];
+    }
+    else {
+      return word;      
+    }
   }
 
   return (
@@ -495,7 +1235,7 @@ export default function App() {
     }}>
       <div>
         <div className="uk-container">
-          <h1 class="uk-heading-small uk-text-center uk-margin-top">Art-Guide</h1>
+          <h1 className="uk-heading-small uk-text-center uk-margin-top">Art-Guide</h1>
         </div>
         <NavBar types={types.sort()} vocabulary={vocabulary} />
         <div className="uk-container">
