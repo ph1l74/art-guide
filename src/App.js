@@ -1371,15 +1371,6 @@ export default function App() {
     { type: 'about', showed: false }
   ])
 
-  useEffect(() => {
-    document.addEventListener("keydown", handleKeyPress, false);
-    setContent(materials.filter(
-      (material) => {
-        return material.type === 'architecture'
-      }
-    ))
-  }, []);
-
   let sections = [];
   let types = [];
 
@@ -1391,6 +1382,8 @@ export default function App() {
     if (types.indexOf(item.type) < 0) {
       types.push(item.type);
     }
+
+    return null
   })
 
   let filteredMaterials = materials;
@@ -1430,7 +1423,18 @@ export default function App() {
     }
   }
 
-  
+  useEffect(() => {
+    const initial = () => {
+      document.addEventListener("keydown", handleKeyPress, false);
+      setContent(materials.filter(
+        (material) => {
+          return material.type === 'architecture'
+        }
+      ))
+    }
+    initial();
+  }, []);
+
   return (
     <Context.Provider value={{
       filterContent, translate
@@ -1464,6 +1468,9 @@ export default function App() {
 
                   )
                 }
+                else {
+                  return null
+                }
               }
               )}
 
@@ -1487,7 +1494,7 @@ export default function App() {
                 <p>Материалы позаимствованы со следующих источников:</p>
                 <div className="uk-grid-small uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-text-center" uk-grid='true'>
                   {sources.map(source => (
-                    <a key={source.id} href={source.url} target="_blank">
+                    <a key={source.id} href={source.url} target="_blank" rel="noopener noreferrer">
                       <div className={'source-card ' + source.id} style={source.img ? { backgroundImage: 'url(' + source.img + ')' } : null}>
                         {source.img ? null : <h1 className="uk-text-lead">{source.name}</h1>}
                       </div>
@@ -1495,8 +1502,8 @@ export default function App() {
                   ))}
                 </div>
                 <h1 className="uk-article-title about-title">О приложении</h1>
-                <p>Приложение создано на <a href="https://reactjs.org" target="_blank">ReactJS</a> с использованием CSS-фреймворка <a href="https://getuikit.com/" target="_blank">UIKit3</a>.
-                Все предложения, замечания и пожелания можно оставить <a href='https://github.com/ph1l74/art-guide/issues/new' target='_blank'>по адресу</a> или <a href="mailto:astakhovfilat@gmail.com?subject=Art-Guide Issue">отправить письмо</a>.
+                <p>Приложение создано на <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">ReactJS</a> с использованием CSS-фреймворка <a href="https://getuikit.com/" target="_blank" rel="noopener noreferrer">UIKit3</a>.
+                Все предложения, замечания и пожелания можно оставить <a href='https://github.com/ph1l74/art-guide/issues/new' target='_blank' rel="noopener noreferrer">по адресу</a> или <a href="mailto:astakhovfilat@gmail.com?subject=Art-Guide Issue">отправить письмо</a>.
                 </p>
                 <p className="uk-text-center"><a href="http://ph1l74.github.io/">Filat Astakhov</a> © 2019</p >
               </article>

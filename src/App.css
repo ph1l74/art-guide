@@ -49,7 +49,6 @@
 
 .source-card {
   height: 60px;
-  /* padding-top: 20px; */
   background-size: cover;
   background-position: center;
   opacity: 0.2;
@@ -57,12 +56,15 @@
   transition-property: transform, opacity;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  /* transition: transform 0.5s ease; */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .source-card:hover {
   opacity: 1;
   transform: scale(1);
+  -webkit-filter: unset;
+  filter: unset;
 }
 
 .birdinflight {

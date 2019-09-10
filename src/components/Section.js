@@ -5,11 +5,11 @@ import { Context } from '../context';
 
 export default function Section({ title, count, cards }) {
 
-    const { filterContent, translate } = useContext(Context);
+    const { translate } = useContext(Context);
 
     return (
         <li className='uk-animation-slide-left-medium'>
-            <a className="uk-accordion-title">
+            <a className="uk-accordion-title" href={null}>
                 <h1 className="uk-heading-bullet">{translate('ru', title)}<span className="uk-badge section-count">{count}</span></h1>
             </a>
             <div className="uk-accordion-content">

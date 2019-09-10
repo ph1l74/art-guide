@@ -12,7 +12,7 @@ export default function NavBar({ types }) {
                 <ul className="uk-flex-center" uk-tab='true'>
                     {types.map((item, index) => (
                         <li key={item + '_' + index}>
-                            <a onClick={() => filterContent(item)}>
+                            <a onClick={() => filterContent(item)} href={null}>
                                 {translate('ru', item)}
                             </a>
                         </li>
