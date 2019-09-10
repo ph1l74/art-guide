@@ -3,7 +3,7 @@ import './Section.css'
 import Card from './Card';
 import { Context } from '../context';
 
-export default function Section({ title, count, cards, vocabulary }) {
+export default function Section({ title, count, cards }) {
 
     const { filterContent, translate } = useContext(Context);
 

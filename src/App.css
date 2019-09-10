@@ -31,3 +31,153 @@
     transform: rotate(360deg);
   }
 }
+
+.about-badge {
+  background: rgb(104, 29, 29);
+  margin-left: 10px;
+  /* opacity: 0.5; */
+  opacity: 0.45;
+}
+
+.about-badge:hover {
+  opacity: 1;
+}
+
+.about-title {
+  font-size: 1.725rem;
+}
+
+.source-card {
+  height: 60px;
+  /* padding-top: 20px; */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  transform: scale(0.9);
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  /* transition: transform 0.5s ease; */
+}
+
+.source-card:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.birdinflight {
+  background-position: 50% 25%;
+}
+
+.chapaev {
+  background-position: 50% 70%;
+}
+
+.lookatme {
+  background-size: 74%;
+  background-repeat: no-repeat;
+}
+
+.strelkamag {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.archiru {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.outshoot {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.pozitiv {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.bigpic {
+  background-repeat: no-repeat;
+  background-color: #f31212;
+  background-size: contain;
+}
+
+.mediashoot {
+  background-size: 78%;
+  background-repeat: repeat;
+  background-color: black;
+  background-position-y: 65%;
+}
+
+.ddd {
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.spletnik {
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.askmen {
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.tatlin {
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.admarginem {
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.mif {
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.inosmi {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: black
+}
+
+.atlantic {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.cb {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.kinopoisk {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.postnauka {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.tanp {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white
+}

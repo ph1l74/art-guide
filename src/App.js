@@ -5,6 +5,33 @@ import NavBar from './components/NavBar.js';
 import Section from './components/Section';
 
 
+// logotypes
+import arzamaslogo from './img/arzamas-logo.png'
+import chapaevlogo from './img/chapaev-logo.jpg'
+import birdinflightlogo from './img/birdinflight-logo.png'
+import loskologo from './img/losko-logo.jpg'
+import lookatmelogo from './img/lookatme-logo.png'
+import afishalogo from './img/afisha-logo.png'
+import strelkamaglogo from './img/strelkamag-logo.jpg'
+import archirulogo from './img/archiru-logo.jpg'
+import outshootlogo from './img/outshoot-logo.png'
+import pozitivlogo from './img/pozitiv-logo.png'
+import bigpiclogo from './img/bigpic-logo.png'
+import spletniklogo from './img/spletnik-logo.svg'
+import mediashootlogo from './img/mediashoot-logo.gif'
+import dddlogo from './img/ddd-logo.png'
+import askmenlogo from './img/askmen-logo.jpg'
+import tatlinlogo from './img/tatlin-logo.jpg'
+import admarginemlogo from './img/admarginem-logo.png'
+import inosmilogo from './img/inosmi-logo.png'
+import atlanticlogo from './img/atlantic-logo.png'
+import cblogo from './img/cb-logo.png'
+import kinopoisklogo from './img/kinopoisk-logo.png'
+import postnaukalogo from './img/postnauka-logo.png'
+import tanplogo from './img/tanp-logo.png'
+import miflogo from './img/mif-logo.svg'
+
+
 export default function App() {
 
   const [materials] = useState([
@@ -1173,21 +1200,179 @@ export default function App() {
   ]);
 
   const [content, setContent] = useState([]);
+
+  const [sources] = useState([
+    {
+      id: 'arzamas',
+      name: 'Arzamas',
+      url: 'https://arzamas.academy/',
+      img: arzamaslogo
+    },
+    {
+      id: 'birdinflight',
+      name: 'Bird in Flight',
+      url: 'https://birdinflight.com/ru/',
+      img: birdinflightlogo
+    },
+    {
+      id: 'losko',
+      name: 'Losko',
+      url: 'https://Losko.ru/',
+      img: loskologo
+    },
+    {
+      id: 'chapaev',
+      name: 'Чапаев',
+      url: 'https://chapaev.media/',
+      img: chapaevlogo
+    },
+    {
+      id: 'lookatme',
+      name: 'Look At Me',
+      url: 'http://lookatme.ru',
+      img: lookatmelogo
+    },
+    {
+      id: 'afisha',
+      name: 'Afisha Daily',
+      url: 'https://daily.afisha.ru/',
+      img: afishalogo
+    },
+    {
+      id: 'strelkamag',
+      name: 'Stralka Mag',
+      url: 'https://strelkamag.com/ru/',
+      img: strelkamaglogo
+    },
+    {
+      id: 'admarginem',
+      name: 'Ad Marginem',
+      url: 'https://admarginem.ru',
+      img: admarginemlogo
+    },
+    {
+      id: 'mif',
+      name: 'Манн, Иванов и Фербер',
+      url: 'https://www.mann-ivanov-ferber.ru',
+      img: miflogo
+    },
+    {
+      id: 'tatlin',
+      name: 'Tatlin',
+      url: 'https://tatlin.ru/',
+      img: tatlinlogo
+    },
+    {
+      id: 'kinopoisk',
+      name: 'КиноПоиск',
+      url: 'https://www.kinopoisk.ru/',
+      img: kinopoisklogo
+    },
+    {
+      id: 'postnauka',
+      name: 'ПостНаука',
+      url: 'https://postnauka.ru/',
+      img: postnaukalogo
+    },
+    {
+      id: 'tanp',
+      name: 'The Art News Paper',
+      url: 'http://www.theartnewspaper.ru/',
+      img: tanplogo
+    },
+    {
+      id: 'archiru',
+      name: 'Archi Ru',
+      url: 'https://archi.ru',
+      img: archirulogo
+    },
+    {
+      id: 'cb',
+      name: 'Cinephilia & Beyond',
+      url: 'https://cinephiliabeyond.org/',
+      img: cblogo
+    },
+    {
+      id: 'askmen',
+      name: 'Askmen',
+      url: 'https://uk.askmen.com/',
+      img: askmenlogo
+    },
+    {
+      id: 'atlantic',
+      name: 'The Atlantic',
+      url: 'https://www.theatlantic.com',
+      img: atlanticlogo
+    },
+    {
+      id: 'spletnik',
+      name: 'Spletnik',
+      url: 'http://www.spletnik.ru/',
+      img: spletniklogo
+    },
+    {
+      id: 'inosmi',
+      name: 'ИНОСМИ',
+      url: 'https://inosmi.ru/',
+      img: inosmilogo
+    },
+    {
+      id: 'bigpic',
+      name: 'Big Picture',
+      url: 'https://bigpicture.ru/',
+      img: bigpiclogo
+    },
+    {
+      id: 'outshoot',
+      name: 'Outshoot',
+      url: 'http://www.outshoot.ru/',
+      img: outshootlogo
+    },
+    {
+      id: 'pozitiv',
+      name: 'Positiv-News.ru',
+      url: 'https://pozitiv-news.ru/',
+      img: pozitivlogo
+    },
+    {
+      id: 'mediashoot',
+      name: 'Media Shoot',
+      url: 'http://media-shoot.ru/',
+      img: mediashootlogo
+    },
+    {
+      id: 'ddd',
+      name: 'DigitalDreamDoor',
+      url: 'https://digitaldreamdoor.com/',
+      img: dddlogo
+    },
+    {
+      id: 'artmoviebase',
+      name: 'ArtMovieBase',
+      url: 'http://artmoviebase.com/'
+    },
+  ])
+
   const [vocabulary] = useState([
-    { id: 'course', ru: 'Курсы', en:'Courses' },
-    { id: 'video', ru: 'Видео', en:'Video' },
+    { id: 'course', ru: 'Курсы', en: 'Courses' },
+    { id: 'video', ru: 'Видео', en: 'Video' },
     { id: 'article', ru: 'Статьи', en: 'Articles' },
     { id: 'book', ru: 'Книги', en: 'Books' },
     { id: 'architecture', ru: 'Архитектура', en: 'Architecture' },
-    { id: 'cinema', ru: 'Кинематограф', en:'Cinema' },
-    { id: 'contemporary', ru: 'Современное искусство', en :'Contemporary Art' },
-    { id: 'music', ru: 'Музыка', en:'Music' },
-    { id: 'paintings', ru: 'Живопись и скульптура', en:'Painting and sculpture' },
-    { id: 'photography', ru: 'Фотография', en:'Photography' },
-    { id: 'theater', ru: 'Театр', en:'Theater' },
+    { id: 'cinema', ru: 'Кинематограф', en: 'Cinema' },
+    { id: 'contemporary', ru: 'Современное искусство', en: 'Contemporary Art' },
+    { id: 'music', ru: 'Музыка', en: 'Music' },
+    { id: 'paintings', ru: 'Живопись и скульптура', en: 'Painting and sculpture' },
+    { id: 'photography', ru: 'Фотография', en: 'Photography' },
+    { id: 'theater', ru: 'Театр', en: 'Theater' },
   ]);
 
+  const [modals, setModals] = useState([
+    { type: 'about', showed: false }
+  ])
+
   useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress, false);
     setContent(materials.filter(
       (material) => {
         return material.type === 'architecture'
@@ -1225,19 +1410,46 @@ export default function App() {
       return vocabulary.filter(el => el.id === word)[0][language];
     }
     else {
-      return word;      
+      return word;
     }
   }
 
+  const toggleModal = modal => {
+    if (modals.filter(item => item.type === modal).length > 0) {
+      let modalIndex = modals.findIndex(item => item.type === modal);
+      let modalItem = modals.filter(item => item.type === modal)[0];
+      modalItem.showed = !modalItem.showed;
+      let newModals = modals.splice(modalIndex, 1, modalItem);
+      setModals(newModals);
+    }
+  }
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Escape' && modals.filter(item => item.type === 'about')[0].showed) {
+      toggleModal('about');
+    }
+  }
+
+  
   return (
     <Context.Provider value={{
       filterContent, translate
     }}>
       <div>
         <div className="uk-container">
-          <h1 className="uk-heading-small uk-text-center uk-margin-top">Art-Guide</h1>
+          <h1 className="uk-heading-small uk-text-center uk-margin-top">
+            Art-Guide
+            <sup>
+              <a
+                onClick={(e) => toggleModal('about')}
+              // uk-toggle="target: #about-modal"
+              >
+                <span className="uk-badge about-badge animated bounceInDown delay-2s">?</span>
+              </a>
+            </sup>
+          </h1>
         </div>
-        <NavBar types={types.sort()} vocabulary={vocabulary} />
+        <NavBar types={types.sort()} />
         <div className="uk-container">
           <div className="uk-container-expand">
             <ul uk-accordion="multiple: true">
@@ -1248,7 +1460,6 @@ export default function App() {
                       title={item}
                       cards={content.filter(material => material.section === item)}
                       count={content.filter(material => material.section === item).length}
-                      vocabulary={vocabulary}
                     ></Section>
 
                   )
@@ -1259,7 +1470,40 @@ export default function App() {
             </ul>
           </div>
         </div>
+        {modals.filter(item => item.type === 'about')[0].showed ?
+
+          <div id='#about-modal' style={{ display: 'block' }} className="uk-modal uk-open animated fadeIn faster" uk-modal='true'
+            onKeyPress={handleKeyPress}
+            tabIndex="0">
+            <div className="uk-modal-dialog uk-modal-body animated bounceInDown faster" uk-overflow-auto='true'>
+              <button className="uk-modal-close-default" type="button" uk-close="true" onClick={(e) => toggleModal('about')}></button>
+              <h2 className="uk-modal-title">Об Art-Guide</h2>
+              <article className="uk-article">
+                <h1 className="uk-article-title about-title">Что это такое?</h1>
+                <p>Art-Guide — это сборник материалов различного рода (курсы, книги, статьи, и т. д.) по теме искусства.</p>
+                <h1 className="uk-article-title about-title">Зачем?</h1>
+                <p>Цель проекта — просветительская. Здесь собраны статьи, которые я считаю важными для понимания искусства или вдохновляющими на творчество.</p>
+                <h1 className="uk-article-title about-title">Откуда?</h1>
+                <p>Материалы позаимствованы со следующих источников:</p>
+                <div className="uk-grid-small uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-text-center" uk-grid='true'>
+                  {sources.map(source => (
+                    <a key={source.id} href={source.url} target="_blank">
+                      <div className={'source-card ' + source.id} style={source.img ? { backgroundImage: 'url(' + source.img + ')' } : null}>
+                        {source.img ? null : <h1 className="uk-text-lead">{source.name}</h1>}
+                      </div>
+                    </a>
+                  ))}
+                </div>
+                <h1 className="uk-article-title about-title">О приложении</h1>
+                <p>Приложение создано на <a href="https://reactjs.org" target="_blank">ReactJS</a> с использованием CSS-фреймворка <a href="https://getuikit.com/" target="_blank">UIKit3</a>.
+                Все предложения, замечания и пожелания можно оставить <a href='https://github.com/ph1l74/art-guide/issues/new' target='_blank'>по адресу</a> или <a href="mailto:astakhovfilat@gmail.com?subject=Art-Guide Issue">отправить письмо</a>.
+                </p>
+                <p className="uk-text-center"><a href="http://ph1l74.github.io/">Filat Astakhov</a> © 2019</p >
+              </article>
+            </div>
+          </div>
+          : null}
       </div>
-    </Context.Provider>
+    </Context.Provider >
   );
 }

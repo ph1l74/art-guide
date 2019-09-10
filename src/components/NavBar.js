@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Context } from '../context';
 import './NavBar.css'
 
-export default function NavBar({ types, vocabulary }) {
+export default function NavBar({ types }) {
 
     const { filterContent, translate } = useContext(Context);
 
