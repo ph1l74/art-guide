@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/art-guide/static/css/main.5ff2a1d9.chunk.css",
+    "main.js": "/art-guide/static/js/main.1f76a392.chunk.js",
+    "main.js.map": "/art-guide/static/js/main.1f76a392.chunk.js.map",
+    "runtime~main.js": "/art-guide/static/js/runtime~main.cb0ef090.js",
+    "runtime~main.js.map": "/art-guide/static/js/runtime~main.cb0ef090.js.map",
+    "static/js/2.5f4bf150.chunk.js": "/art-guide/static/js/2.5f4bf150.chunk.js",
+    "static/js/2.5f4bf150.chunk.js.map": "/art-guide/static/js/2.5f4bf150.chunk.js.map",
+    "index.html": "/art-guide/index.html",
+    "precache-manifest.77d6ba6075076ee338de236820f59b7f.js": "/art-guide/precache-manifest.77d6ba6075076ee338de236820f59b7f.js",
+    "service-worker.js": "/art-guide/service-worker.js",
+    "static/css/main.5ff2a1d9.chunk.css.map": "/art-guide/static/css/main.5ff2a1d9.chunk.css.map",
+    "static/media/admarginem-logo.png": "/art-guide/static/media/admarginem-logo.83d37d2c.png",
+    "static/media/afisha-logo.png": "/art-guide/static/media/afisha-logo.99b84530.png",
+    "static/media/archiru-logo.jpg": "/art-guide/static/media/archiru-logo.944dca6d.jpg",
+    "static/media/askmen-logo.jpg": "/art-guide/static/media/askmen-logo.bd4ec96e.jpg",
+    "static/media/birdinflight-logo.png": "/art-guide/static/media/birdinflight-logo.fb4cef2b.png",
+    "static/media/losko-logo.jpg": "/art-guide/static/media/losko-logo.3a0134e5.jpg",
+    "static/media/mif-logo.svg": "/art-guide/static/media/mif-logo.75b8531f.svg",
+    "static/media/postnauka-logo.png": "/art-guide/static/media/postnauka-logo.6e9f304c.png",
+    "static/media/pozitiv-logo.png": "/art-guide/static/media/pozitiv-logo.0c0455df.png",
+    "static/media/spletnik-logo.svg": "/art-guide/static/media/spletnik-logo.4f709acd.svg",
+    "static/media/strelkamag-logo.jpg": "/art-guide/static/media/strelkamag-logo.3c3505ef.jpg",
+    "static/media/tanp-logo.png": "/art-guide/static/media/tanp-logo.ab843526.png",
+    "static/media/tatlin-logo.jpg": "/art-guide/static/media/tatlin-logo.0ecd10ea.jpg"
+  }
+}
